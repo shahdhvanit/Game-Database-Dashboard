@@ -1,106 +1,120 @@
 # 🎮 Game Database Dashboard
 
-A comprehensive PostgreSQL database project designed to model, manage, and analyze data for a multiplayer gaming platform. The project demonstrates robust relational database design, normalization, advanced SQL querying, stored functions, and procedural programming to generate meaningful game analytics.
+A comprehensive relational database project built using PostgreSQL to model and analyze a multiplayer gaming ecosystem. The database is designed to efficiently manage interconnected game entities while supporting advanced analytical queries through stored functions and procedures.
 
 ---
 
-## 🌟 Project Overview
+## 📖 Overview
 
-The Game Database Dashboard simulates the backend database of an online multiplayer game. It stores and manages information related to players, matches, clans, weapons, maps, seasons, and administrators while providing analytical insights through SQL queries and stored procedures.
+This project demonstrates the design and implementation of a normalized relational database for a multiplayer game. It models core entities such as players, clans, matches, weapons, maps, seasons, and administrators, enabling efficient data management and meaningful game analytics.
 
-The project emphasizes efficient database design and showcases how relational databases can be used to support real-world gaming applications.
+The project emphasizes database design principles, relational modeling, and SQL-based data analysis.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- 🏆 Player ranking and leaderboard generation
+- 🏆 Player leaderboard and rankings
 - 🎯 Favorite weapon analysis
-- ⚔️ Complete player match history
-- 👥 Clan information and member statistics
-- 🔫 Weapon-wise performance leaderboard
-- 📊 Player-to-player comparison
-- 🎮 Match statistics and summaries
+- 🎮 Player match history
+- 👥 Clan information and statistics
+- 🔫 Weapon performance leaderboard
+- ⚔️ Player comparison
+- 📊 Match summary generation
 - 📅 Season-wise analytics
 - 👨‍💼 Administrator-based player management
-- 🗺️ Map usage and performance statistics
+- 🗺️ Map statistics and insights
 
 ---
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 
 - PostgreSQL
 - SQL
 - Relational Database Design
+- Entity Relationship Modeling (ERD)
+- Database Normalization
 - Stored Functions
 - Stored Procedures
-- ER Modeling
-- Database Normalization
 
 ---
 
-## 📂 Repository Contents
+## 📂 Project Structure
+
+```
+Game-Database-Dashboard/
+│── DDL.sql
+│── InsertOperations.sql
+│── Queries.sql
+│── ERD.jpeg
+│── ERD and Relational Schema.pdf
+│── README.md
+```
+
+---
+
+## 🗂️ Entity Relationship Diagram
+
+The following ER diagram represents the database schema and relationships among the entities.
+
+![ER Diagram](ERD.jpeg)
+
+---
+
+## 📁 Project Files
 
 | File | Description |
 |------|-------------|
-| **DDL.sql** | Database schema creation scripts |
+| **DDL.sql** | SQL script for creating the database schema |
 | **InsertOperations.sql** | Sample data insertion scripts |
 | **Queries.sql** | SQL queries, stored functions, and procedures |
-| **ERD and Relational Schema.pdf** | Entity Relationship Diagram and normalized relational schema |
+| **ERD.jpeg** | Visual representation of the database schema |
+| **ERD and Relational Schema.pdf** | Complete ER diagram and normalized relational schema |
 
 ---
 
-## 🧩 Database Modules
+## 🎯 Functionalities
 
-The database is designed around the following core entities:
+The database supports:
 
-- Players
-- Clans
-- Matches
-- Weapons
-- Maps
-- Seasons
-- Administrators
-
-These modules work together to maintain relationships and support complex analytical queries.
-
----
-
-## 📈 Analytics Supported
-
-The project enables retrieval of valuable insights including:
-
-- Top-performing players
-- Weapon popularity and effectiveness
-- Player performance history
-- Clan statistics
-- Match summaries
-- Seasonal reports
-- Administrative reports
+- Player performance analysis
+- Match history retrieval
+- Weapon usage statistics
+- Clan management
+- Season summaries
 - Map-based analytics
+- Administrative reports
+- Leaderboard generation
 
 ---
 
-## 💡 Concepts Demonstrated
+## 📚 Concepts Demonstrated
 
 - Relational Database Design
 - Entity Relationship Modeling
-- Normalization
-- Data Integrity
-- SQL Query Optimization
+- Database Normalization
+- SQL Query Writing
+- Aggregate Functions
+- Joins
 - Stored Functions
 - Stored Procedures
-- Aggregate Analysis
-- Multi-table Joins
+- Data Integrity
 
 ---
 
-## 🎯 Objective
+## 🚀 Future Enhancements
 
-The objective of this project is to demonstrate the practical application of database management concepts by designing a scalable and structured game database capable of storing, retrieving, and analyzing large volumes of interconnected game data efficiently.
+- Interactive dashboard for database visualization
+- Additional analytical reports
+- Performance optimization for large datasets
+- Advanced indexing strategies
+- Role-based database access control
 
 ---
 
 ## 👨‍💻 Author
 
-**Dhvanit Shah** 
+**Dhvanit Shah**
+
+---
+⭐ If you found this project interesting, feel free to explore the SQL scripts and database design.
